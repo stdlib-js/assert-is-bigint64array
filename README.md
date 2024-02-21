@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBigInt64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint64array@deno/mod.js';
+import isBigInt64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint64array@v0.2.1-deno/mod.js';
 ```
 
 #### isBigInt64Array( value )
@@ -81,7 +81,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/m
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import isBigInt64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint64array@deno/mod.js';
+import isBigInt64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-bigint64array@v0.2.1-deno/mod.js';
 
 var bool = isBigInt64Array( new BigInt64Array( 10 ) );
 // returns true
