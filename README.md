@@ -131,7 +131,7 @@ bool = isBigInt64Array( new Float64Array( 10 ) );
 bool = isBigInt64Array( new Float32Array( 10 ) );
 // returns false
 
-bool = isBigInt64Array( new Array( 10 ) );
+bool = isBigInt64Array( [] );
 // returns false
 
 bool = isBigInt64Array( {} );
@@ -198,8 +198,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-bigint64array.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-bigint64array
 
-[test-image]: https://github.com/stdlib-js/assert-is-bigint64array/actions/workflows/test.yml/badge.svg?branch=v0.2.3
-[test-url]: https://github.com/stdlib-js/assert-is-bigint64array/actions/workflows/test.yml?query=branch:v0.2.3
+[test-image]: https://github.com/stdlib-js/assert-is-bigint64array/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/assert-is-bigint64array/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-bigint64array/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-bigint64array?branch=main
